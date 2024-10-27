@@ -10,6 +10,10 @@ import config
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
+new_path = "./bin/adb"
+os.environ["PATH"] += os.pathsep + new_path
+
+
 def delete_all_files_in_directory(directory):
     """
     删除指定目录下的所有文件。
