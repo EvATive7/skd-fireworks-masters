@@ -1,0 +1,5 @@
+__pycache__
+bin/adb/*
+!bin/adb/README.md
+.venv
+cache
